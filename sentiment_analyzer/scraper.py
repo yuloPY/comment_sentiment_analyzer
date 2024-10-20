@@ -8,10 +8,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # URL of the youtube video to be scraped
-url = "https://www.youtube.com/watch?v=mqobetEWUDM"
+url = "https://www.youtube.com/"
 
 # WebDriver path
-service = Service(r"C:\Users\erhan\open-vs\.Github\comment_sentiment_analyzer\geckodriver.exe")
+service = Service(r"your directory\geckodriver.exe")
 
 # Start Firefox browser
 driver = webdriver.Firefox(service=service)
