@@ -41,7 +41,7 @@ while True:
 comments = driver.find_elements(By.CSS_SELECTOR, "#content-text")
 
 # Define the filename and path
-filename = r"C:\Users\erhan\open-vs\.Github\comment_sentiment_analyzer\comments.csv"
+filename = r"your directory\comments.csv"
 
 # Save comments to a CSV file
 with open(filename, mode='a', newline='', encoding='utf-8') as file:
